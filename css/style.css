@@ -34,10 +34,14 @@ body {
     justify-content: center;
     align-items: center;
     border-left: 4px solid #fff;
-    border-right: 4px solid transparent;
+    border-right: 4px solid transparent; 
+    text-decoration: none;
     transition: all 300ms ease-in-out;
-
+   
 }
+
+.menu-item:visited > i { color: black}
+.menu-item--active:visited > i {color: blue}
 
 .menu-item:hover {
     border-left: 4px solid rgb(28, 119, 179);   
