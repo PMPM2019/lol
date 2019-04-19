@@ -1,0 +1,30 @@
+.index {
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card  {
+    margin: 0 60px 60px 0;
+    height: 300px;
+    width: 400px;
+    background: rgb(136, 104, 155);
+}
+
+.card-img > img {
+    height: 150px;
+    width: 100%;
+}
+
+.card-header {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 30px;
+
+}
